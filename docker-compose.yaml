@@ -15,7 +15,7 @@ services:
       MYSQL_DATABASE: flask_db
       MYSQL_ROOT_PASSWORD: ${password}
   flask-app:
-    image: flask-app
+    image: sjknapp/flask-app
     build: ./flask-app/
     ports:
     - target: 5000
